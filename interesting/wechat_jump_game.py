@@ -13,7 +13,7 @@ def pull_screenshot():
 
 
 def jump(distance):
-    press_time = distance * 1.393
+    press_time = distance * 1.35
     press_time = int(press_time)
     cmd = 'adb shell input swipe 320 410 320 410 ' + str(press_time)
     print(cmd)
